@@ -11,8 +11,7 @@ class Constants {
   static const String location = "Location";
   static const String batch = "Batch";
 
-
-  //Firebase 
-  static const String collectionName ="campusBuddy";
-  static const String documentName ="job_info";
+  //Firebase
+  static const String collectionName = "campusBuddy";
 }
+ 

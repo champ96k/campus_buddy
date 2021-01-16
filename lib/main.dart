@@ -1,4 +1,4 @@
-import 'package:campus_buddy/screen/widget/build_box.dart';
+import 'package:campus_buddy/admin/dashboard.dart';
 import 'package:flutter/material.dart';
 void main()  {
   runApp(MyApp());
@@ -9,12 +9,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Campus Buddy',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
-      home: BuildBox(), 
+      title: 'Campus Buddy',
+      home: DashBoard(),
     );
   }
 }
