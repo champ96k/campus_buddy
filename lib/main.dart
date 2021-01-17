@@ -1,4 +1,4 @@
-import 'package:campus_buddy/admin/dashboard.dart';
+import 'package:campus_buddy/screen/home_page.dart';
 import 'package:flutter/material.dart';
 void main()  {
   runApp(MyApp());
@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Campus Buddy',
-      home: DashBoard(),
+      home: HomePage(),
     );
   }
 }
